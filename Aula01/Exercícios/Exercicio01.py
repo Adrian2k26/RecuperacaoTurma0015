@@ -12,7 +12,7 @@ def mostrar_mensagem(nome, idade):
 
 # Criar as variáveis
 nome = input("Digite seu nome: ")
-idade = input("Digite sua idade: ")
+idade = int(input("Digite sua idade: "))
 
 # Chamar a função
 print(mostrar_mensagem(nome, idade))
